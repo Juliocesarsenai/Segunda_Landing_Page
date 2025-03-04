@@ -1,0 +1,94 @@
+body{
+    font-family: "poppinsregular",sans-serif;
+    background-color: rgb(34, 34, 34);
+    color:white;
+    margin:0 auto;
+    max-width:1200px;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+ul a{
+    text-decoration:none;
+    list-style:none;
+    color:white;
+}
+a:hover{
+    color: rgb(132, 14, 201);
+}
+li{
+    display:inline-block;
+    margin:40px;
+  
+}
+
+#title{
+    flex-direction:column;
+    line-height:10px;
+}
+
+#inscreva-se{
+    border:1px solid rgb(132, 14, 201);
+    padding:15px;
+    border-radius:20px;
+}
+#inscreva-se:hover{
+    color:white;
+    background:rgb(132, 14, 201);
+}
+
+span{
+    color:rgb(132,14,201);
+  
+}
+
+h2{
+  font-size:50px;  
+  line-height:10px;
+}
+
+p{
+    max-width:400px;
+    font-family:"poppinsregular",sans-serif;
+}
+
+main{
+    margin-top:50px;
+    display:flex;
+    flex-direction:row;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    width:70%;
+}
+
+input{
+    margin-top:20px;
+    height:20px;
+    padding:15px;
+    border-radius:20px;
+    border:none;
+    
+}
+
+form [type="submit"]{
+    height:50px;
+    font-size:20px;
+    background:rgb(132, 14, 201);
+    width:50%;
+    color:#fff;
+}
+form [type="submit"]{
+    cursor:pointer;
+}
+
+
+
+
+
